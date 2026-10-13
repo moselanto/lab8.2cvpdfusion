@@ -3,151 +3,290 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Moses Njeru Munyi - HTML CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-
+  <title>Moses Njeru Munyi | Operations, Data & Web Professional - CV</title>
+  <meta name="description" content="CV of Moses Njeru Munyi - Operations & Automation Professional, Data Operations Specialist, Web Developer and UI/UX Designer based in Nairobi, Kenya, working with clients worldwide." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="cv-container">
-    <aside class="cv-sidebar">
-      <img
-        src="uploads/psp1.png"
-        alt="Moses Njeru Munyi"
-        class="cv-img"
-      />
-      <section class="cv-contact">
-        <h2>CONTACT</h2>
-        <p><strong>PHONE:</strong> +254703201241</p>
-        <p><strong>EMAIL:</strong> mosemqute@gmail.com</p>
-        <p><strong>WEB:</strong> linkedin.com/moses-njeru-munyib02156b2/</p>
-        <p><strong>HOME:</strong> Nairobi, Kenya</p>
-      </section>
-      <section class="cv-skills">
-        <h2>SKILLS</h2>
-        <p>
-          <strong>DESIGN SOFTWARE’S:</strong><br />
-          Adobe Photoshop, InDesign, Illustrator, Dreamweaver
-        </p>
-        <p>
-          <strong>WEB-BASED APPLICATIONS: (CMS)</strong><br />
-          WordPress, Joomla, Magento, Prestashop, opencart, HTML5 &amp; CSS,
-          JavaScript
-        </p>
-        <p>
-          <strong>RESEARCH TOOLS:</strong><br />
-          Google Advanced Search, Google Analytics, Google Merchants
-        </p>
-        <p>
-          <strong>OFFICE TOOLS:</strong><br />
-          Microsoft Word, Excel, PowerPoint, Access
-        </p>
-      </section>
-      <section class="cv-hobbies">
-        <h2>HOBBIES</h2>
-        <p>
-          Trying new cuisines | music | Socializing | Traveling | Reading |
-          community development
-        </p>
-      </section>
-      <section class="cv-referees">
-        <h2>REFEREES</h2>
-        <p>
-          <strong>Oracom Web Solutions</strong><br />
-          <em>Tel: +254712534091</em><br />
-          <em>info@oracom.co.ke</em>
-        </p>
-        <p>
-          <strong>Sound Creations Ltd</strong><br />
-          <em>Tel: +254720886900</em><br />
-          <em>vincent@soundcreationsltd.com</em>
-        </p>
-      </section>
-    </aside>
+  <div class="toolbar no-print">
+    <button type="button" id="download-btn" class="btn">Download PDF</button>
+  </div>
 
-    <main class="cv-main">
-      <header class="cv-header">
-        <h1>MOSES NJERU MUNYI</h1>
-        <h4>CMS WEB DEVELOPER, GRAPHIC DESIGN &amp; DATA ENTRY</h4>
-      </header>
+  <div class="cv">
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar">
+      <div class="photo-wrap">
+        <img src="uploads/psp1.png" alt="Moses Njeru Munyi" class="photo" />
+      </div>
 
-      <section class="cv-summary">
-        <p>
-Versatile CMS Web Developer, Graphic Designer, and Data Entry Specialist with a strong track record of creating, managing, and optimizing websites using platforms such as WordPress, Joomla, Magento, and Prestashop. Skilled in crafting visually engaging designs, implementing responsive layouts, and integrating social media platforms to enhance online presence. Experienced in accurate and efficient data entry, database management, and process improvements that streamline workflows and ensure data integrity. Passionate about delivering high-quality digital solutions that balance functionality, aesthetics, and performance.
-        </p>
-        <ul>
-          <li>Entered data into the system with speed and accuracy.</li>
-          <li>Managed and updated client records, ensuring data integrity.</li>
-          <li>Assisted with file transfers and backups.</li>
-          <li>Excellent verbal and written communication skills</li>
-          <li>Ability to multitask and prioritize work</li>
-          <li>In I am versed in CMS (Wordpress, Joomla, Magento and prestashop)</li>
-          <li>I am well versed in writing programs in HTML/CSS, JavaScript</li>
-          <li>Skilled in cross-browser/cross-platform issues and web standards</li>
-          <li>Excellent social platform integrating skills (Facebook, Instagram,
-            Twitter)</li>
+      <section class="side-section">
+        <h2>Contact</h2>
+        <ul class="contact">
+          <li><span class="label">Phone</span><a href="tel:+254703201241">+254 703 201 241</a></li>
+          <li><span class="label">Email</span><a href="mailto:moses@pimofydigital.com">moses@pimofydigital.com</a></li>
+          <li><span class="label">Alt. email</span><a href="mailto:mosemqute@gmail.com">mosemqute@gmail.com</a></li>
+          <li><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/moses-njeru-munyi-b02156b2/" target="_blank" rel="noopener">linkedin.com/in/moses-njeru-munyi-b02156b2</a></li>
+          <li><span class="label">GitHub</span><a href="https://github.com/moselanto" target="_blank" rel="noopener">github.com/moselanto</a></li>
+          <li><span class="label">Company</span><a href="https://pimofydigital.com/" target="_blank" rel="noopener">pimofydigital.com</a></li>
+          <li><span class="label">Location</span>Nairobi, Kenya &middot; Remote worldwide</li>
         </ul>
       </section>
 
-      <section class="cv-experience">
-        <h2>WORK EXPERIENCE</h2>
+      <section class="side-section">
+        <h2>Core Competencies</h2>
+        <ul class="tags">
+          <li>Business Operations</li>
+          <li>Workflow Automation</li>
+          <li>Data Operations</li>
+          <li>Web Scraping</li>
+          <li>Data Quality &amp; Validation</li>
+          <li>Technical Support (SLA)</li>
+          <li>Executive Assistance</li>
+          <li>Remote Team Leadership</li>
+          <li>Web Development</li>
+          <li>UI/UX Design</li>
+          <li>E-commerce</li>
+          <li>SEO &amp; Digital Marketing</li>
+        </ul>
+      </section>
 
-        <div class="job">
-          <h3>
-            Product&gt;Data Ops (Data scrapping)
-            <span>2023 – Present</span>
-          </h3>
-          <p><strong>getro inc/ 4845 Pearl East Cr Ste 118, #66053 Boulder, CO 80301 US</strong></p>
-          <ul>
-            <li>HTML/CSS/JavaScript</li>
-            <li>Data Entry</li>
-            <li>Web Scraping</li>
-            <li>Back Office, Customer Requests Review/Support, Maintenance, Error
-              Fixing and escalation</li>
-          </ul>
-        </div>
+      <section class="side-section">
+        <h2>Technical Skills</h2>
+        <p class="skill-group"><strong>Web &amp; Apps</strong>WordPress, WooCommerce, PHP, HTML5, CSS3, JavaScript, TypeScript, Next.js, Supabase, Joomla, OpenCart, Magento</p>
+        <p class="skill-group"><strong>Data</strong>Web scraping, data pipelines, extraction &amp; cleaning, SQL, Microsoft Excel</p>
+        <p class="skill-group"><strong>Design</strong>Figma, Adobe Photoshop, Illustrator, InDesign, responsive design</p>
+        <p class="skill-group"><strong>Growth</strong>Google Analytics, Google Merchant Center, SEO, email &amp; social campaigns, CRM</p>
+        <p class="skill-group"><strong>Productivity</strong>Microsoft Office, Google Workspace, ticketing &amp; chat support tools</p>
+      </section>
 
-        <div class="job">
-          <h3>
-            WEB DEVELOPER, GRAPHIC DESIGN &amp; MARKETING
-            <span>2020 – 2023</span>
-          </h3>
-          <p><strong>Sound Creations Ltd / Nairobi, Kenya</strong></p>
-          <ul>
-            <li>Web development and Maintenance (CMS)</li>
-            <li>Graphic design</li>
-            <li>Define promotion campaigns, competitions</li>
-            <li>Development and execution of Sales Distribution strategies</li>
-            <li>Conducting market surveys and studying consumer</li>
-          </ul>
-        </div>
+      <section class="side-section">
+        <h2>Certifications</h2>
+        <ul class="certs">
+          <li><strong>WordPress Administration</strong>TestGorilla &middot; 100th percentile &middot; 2026</li>
+          <li><strong>Critical Thinking</strong>TestGorilla &middot; 100th percentile &middot; 2026</li>
+          <li><strong>Problem Solving</strong>TestGorilla &middot; 97th percentile &middot; 2026</li>
+          <li><strong>Understanding Instructions</strong>TestGorilla &middot; 92nd percentile &middot; 2026</li>
+          <li><strong>Marketing Solutions Fundamentals</strong>LinkedIn &middot; 2022</li>
+        </ul>
+      </section>
 
-        <div class="job">
-          <h3>
-            WEB DEVELOPER &amp; GRAPHIC DESIGN
-            <span>2015 – 2017</span>
-          </h3>
-          <p><strong>Oracom Web Solutions / Westlands, Nairobi</strong></p>
-          <ul>
-            <li>Create website layout/user interface</li>
-            <li>Design, develop, test and deploy web applications.(CMS)</li>
-            <li>Assist and support in the upkeep and maintenance of websites</li>
-            <li>Graphics design</li>
-          </ul>
+      <section class="side-section">
+        <h2>Languages</h2>
+        <ul class="langs">
+          <li>English <span>Fluent</span></li>
+          <li>Kiswahili <span>Native</span></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ============ MAIN ============ -->
+    <main class="main">
+      <header class="header">
+        <h1>Moses Njeru Munyi</h1>
+        <p class="title">Operations &amp; Automation Professional &middot; Data Operations &middot; Web Development &amp; UI/UX</p>
+      </header>
+
+      <section class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+          Operations and automation professional with <strong>10+ years</strong> of experience across business operations, data operations,
+          technical support, executive assistance, web development and UI/UX. Spent recent years inside international technology teams at
+          <strong>Getro</strong> and <strong>Findem</strong> (USA), owning web scraping pipelines, keeping high-volume production data accurate
+          and resolving escalated technical issues under strict SLAs. Co-founder of <strong>Pimofy Digital</strong>, a Nairobi-based digital
+          agency and BPO that builds remote teams, automated workflows and websites for growing businesses. Known for dependable delivery,
+          clear documentation and calm cross-functional collaboration across time zones.
+        </p>
+        <div class="highlights">
+          <div class="highlight"><span class="num">10+</span><span class="txt">Years experience</span></div>
+          <div class="highlight"><span class="num">20+</span><span class="txt">Websites &amp; platforms delivered</span></div>
+          <div class="highlight"><span class="num">4</span><span class="txt">Years with US tech companies</span></div>
+          <div class="highlight"><span class="num">100%</span><span class="txt">Remote-ready</span></div>
         </div>
       </section>
 
-      <section class="cv-education">
-        <h2>EDUCATION</h2>
-        <div>
-          <strong>Diploma in information Technology</strong><br />
-          Mount Kenya University<br />
-          <span>2012 - 2014</span>
+      <section class="section">
+        <h2>Professional Experience</h2>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Co-Founder &amp; CEO</h3>
+            <span class="date">2022 &ndash; Present</span>
+          </div>
+          <p class="org">Pimofy Digital &middot; Nairobi, Kenya</p>
+          <ul>
+            <li>Co-founded and lead a digital agency and BPO providing data operations, back-office, non-voice customer support, social media and web services to growing businesses.</li>
+            <li>Own client onboarding, project scoping, delivery, reporting and invoicing.</li>
+            <li>Build and coordinate remote teams with built-in quality assurance and clear SOPs.</li>
+            <li>Audit client workflows and implement automations that remove repetitive manual work.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Data Operations &amp; Extraction Consultant</h3>
+            <span class="date">Nov 2025 &ndash; May 2026</span>
+          </div>
+          <p class="org">Findem (AI talent intelligence platform) &middot; California, USA &middot; Remote</p>
+          <ul>
+            <li>Retained as technical consultant after Findem's acquisition of Getro to own scraping infrastructure and data reliability.</li>
+            <li>Managed and improved automated web scraping routines that kept production data accurate and current.</li>
+            <li>Monitored pipelines and resolved extraction failures, broken sources and data-quality issues within SLA.</li>
+            <li>Ensured continuity of Getro's data workflows through the migration into Findem's systems, with full handover documentation.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Data Operations &amp; Technical Support Specialist</h3>
+            <span class="date">Jun 2022 &ndash; Nov 2025</span>
+          </div>
+          <p class="org">Getro &middot; Boulder, Colorado, USA &middot; Remote</p>
+          <ul>
+            <li>Owned end-to-end data pipelines for a platform powering job boards and talent networks for venture capital firms and their portfolio companies.</li>
+            <li>Built automated web scraping routines and cleaned, structured and validated complex datasets.</li>
+            <li>Processed client data requests to specification and resolved advanced platform tickets under SLA deadlines.</li>
+            <li>Partnered with engineering and product teams to remove workflow bottlenecks.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Executive Virtual Assistant &amp; Digital Operations Consultant</h3>
+            <span class="date">Nov 2019 &ndash; Present</span>
+          </div>
+          <p class="org">Africa Women Investors (AWIVEST) &middot; Remote</p>
+          <ul>
+            <li>Executive and governance support to the Founder &amp; Chairlady and Board of a women's investment organisation active in East African real estate, capital markets and equities.</li>
+            <li>Member contribution reconciliation, financial tracking, exit calculations and audit-ready records.</li>
+            <li>Designed and built the AWIVEST Members Portal (Next.js, TypeScript, Supabase) with KYC, investor dashboards and digital document signing.</li>
+            <li>Business plans, financial models, investor presentations, website and brand management.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Digital Webmaster &amp; Growth Specialist</h3>
+            <span class="date">Mar 2020 &ndash; Dec 2022</span>
+          </div>
+          <p class="org">Sound Creations Ltd &middot; Nairobi, Kenya</p>
+          <ul>
+            <li>Designed, tested and deployed production websites optimised for speed, security and stability.</li>
+            <li>Built high-converting landing pages and lead-capture funnels; ran email and social campaigns that grew organic traffic.</li>
+            <li>Provided technical support and resolved production issues.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Web Developer &amp; Digital Solutions Specialist</h3>
+            <span class="date">Mar 2015 &ndash; Apr 2018</span>
+          </div>
+          <p class="org">Oracom Web Solutions Ltd &middot; Westlands, Nairobi</p>
+          <ul>
+            <li>Designed and deployed responsive websites and e-commerce stores for client businesses.</li>
+            <li>Delivered technical and on-page SEO, UI layouts and marketing assets; maintained site health and security.</li>
+          </ul>
+        </article>
+
+        <article class="job job-compact">
+          <div class="job-head">
+            <h3>Earlier Roles</h3>
+            <span class="date">2014 &ndash; 2017</span>
+          </div>
+          <ul>
+            <li><strong>Business Development &amp; Growth Executive</strong>, Ngiko Online Shopping, Nairobi (2016 &ndash; 2017)</li>
+            <li><strong>Digital Marketing &amp; Web Strategist</strong>, Russian Standard Vodka, Nairobi (2014)</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Selected Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <h4>AWIVEST Members Portal</h4>
+            <p>Investor portal with dashboards, KYC, contributions and e-signing. <em>Next.js &middot; TypeScript &middot; Supabase</em></p>
+          </div>
+          <div class="project">
+            <h4><a href="https://moselanto.github.io/pesabooks/" target="_blank" rel="noopener">PesaBooks</a></h4>
+            <p>WhatsApp bookkeeper handling KRA invoices, records and taxes. <em>TypeScript</em></p>
+          </div>
+          <div class="project">
+            <h4><a href="https://moselanto.github.io/mentorbay/" target="_blank" rel="noopener">MentorBay</a></h4>
+            <p>Platform connecting mentors and mentees with programmes and progress tracking. <em>TypeScript</em></p>
+          </div>
+          <div class="project">
+            <h4><a href="https://pdf-certificates.vercel.app" target="_blank" rel="noopener">PDF Certificate System</a></h4>
+            <p>Generate, manage and issue PDF certificates. <em>TypeScript &middot; Vercel</em></p>
+          </div>
+          <div class="project">
+            <h4><a href="https://soundcreationsltd.com/" target="_blank" rel="noopener">Sound Creations Ltd</a></h4>
+            <p>B2B pro-audio websites for Kenya and Rwanda. <em>WordPress</em></p>
+          </div>
+          <div class="project">
+            <h4><a href="https://vtechaudio.co.ke/" target="_blank" rel="noopener">VTECH Audio</a></h4>
+            <p>Custom WordPress theme for an audio company. <em>PHP &middot; WordPress</em></p>
+          </div>
+          <div class="project wide">
+            <h4>E-commerce stores (WooCommerce)</h4>
+            <p>
+              <a href="https://guruexpertpowertools.co.ke/" target="_blank" rel="noopener">Guruexpert Power Tools</a> &middot;
+              <a href="https://topnotchmall.co.ke/" target="_blank" rel="noopener">Top Notch Mall</a> &middot;
+              <a href="https://toptechmachinery.co.ke/" target="_blank" rel="noopener">Toptech Machinery</a> &middot;
+              <a href="https://www.powertoolsplugke.co.ke/" target="_blank" rel="noopener">Power Tools Plug</a> &middot;
+              <a href="https://rickytools.com/" target="_blank" rel="noopener">Ricky Tools</a> &middot;
+              <a href="https://tabarakelectronics.co.ke/" target="_blank" rel="noopener">Tabarak Electronics</a> &middot;
+              <a href="https://nurabeauty.co.ke/" target="_blank" rel="noopener">Nura Beauty</a> &middot;
+              <a href="https://greenworldhealth.co.ke/" target="_blank" rel="noopener">Green World Health</a>
+            </p>
+          </div>
+          <div class="project wide">
+            <h4>Non-profit websites</h4>
+            <p>Smile Community Centre &middot; <a href="https://cisternofhopefoundation.org/" target="_blank" rel="noopener">Cistern of Hope Foundation</a></p>
+          </div>
         </div>
-        <div>
-          <strong>CERTIFICATES</strong> in graphic design &amp; CMS Web development<br />
-          Webbs Instititute College<br />
-          <span>2014 – 2015</span>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <div class="edu">
+          <div class="edu-item">
+            <div class="job-head"><h3>Professional Diploma, UI/UX Design</h3><span class="date">2025</span></div>
+            <p class="org">Moringa School &middot; Nairobi &middot; Credit</p>
+          </div>
+          <div class="edu-item">
+            <div class="job-head"><h3>Certificate, Networking N+ &amp; Graphic Design / CMS Web Development</h3><span class="date">2014 &ndash; 2015</span></div>
+            <p class="org">Webbs Institute &middot; Nairobi &middot; Credit</p>
+          </div>
+          <div class="edu-item">
+            <div class="job-head"><h3>Diploma in Information Technology</h3><span class="date">2012 &ndash; 2014</span></div>
+            <p class="org">Mount Kenya University &middot; Web design, graphics, networking &amp; programming</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>References</h2>
+        <div class="refs">
+          <div class="ref">
+            <strong>Robin Daultani</strong>
+            <span>Former colleague, Getro / Findem</span>
+            <em>&ldquo;Hardworking and dependable, with strong technical, analytical and problem-solving skills. Excels at automating data processes and consistently delivers high-quality results.&rdquo;</em>
+          </div>
+          <div class="ref">
+            <strong>Sound Creations Ltd</strong>
+            <span>+254 720 886 900</span>
+            <span>vincent@soundcreationsltd.com</span>
+          </div>
+          <div class="ref">
+            <strong>Oracom Web Solutions</strong>
+            <span>+254 712 534 091</span>
+            <span>info@oracom.co.ke</span>
+          </div>
         </div>
       </section>
     </main>
